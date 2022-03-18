@@ -3,7 +3,7 @@
 if [ ! -f /tmp/xmrig-demo ]; then
         echo "[INFO] XMRig not found, downloading..."
         curl https://raw.githubusercontent.com/chkp-stuartgreen/cwpp-demo/main/xmrig -o /tmp/xmrig
-        curl https://raw.githubusercontent.com/chkp-stuartgreen/config.json -o /tmp/config.json
+        curl https://raw.githubusercontent.com/chkp-stuartgreen/cwpp-demo/main/config.json -o /tmp/config.json
         chmod +x /tmp/xmrig
 else
 	echo "[INFO] XMRig binary found"
